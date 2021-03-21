@@ -3,9 +3,9 @@
 <head>
 </head>
 <body>
-  <button id="Foo">Foo</button>
-  <button id="Bar">Bar</button>
-  <button id="FooBar">FooBar</button>
+  <button id="foo">Foo</button>
+  <button id="bar">Bar</button>
+  <button id="fooBar">FooBar</button>
   <script src="ClickEventsJava.jv"></script>
 </body>
 </html>
