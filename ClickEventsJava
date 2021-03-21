@@ -3,22 +3,19 @@ const Bar = document.querySelector("Bar");
 const FooBar = document.querySelector("FooBar");
 const main = document.querySelector("main");
 
-Foo.addEventListener('click', function(event) {
-  console.log(event.target.value);
+Foo.addEventListener('click', function() {
   const h3Tag = document.createElement("h3");
   h3Tag.textContent = "Foo";
   main.appendChild(h3Tag);
 })
 
-Bar.addEventListener('click',  function(event) {
-  console.log(event.target.value);
+Bar.addEventListener('click',  function() {
   const h3Tag = document.createElement("h3");
   h3Tag.textContent = "Bar";
   main.appendChild(h3Tag);
 })
 
-FooBar.addEventListener('click',  function(event) {
-  console.log(event.target.value);
+FooBar.addEventListener('click',  function() {
   const h2Tag = document.createElement("h2");
   h2Tag.textContent = "FooBar";
   main.appendChild(h2Tag);
