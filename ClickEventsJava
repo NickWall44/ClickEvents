@@ -1,1 +1,10 @@
-yup
+const button = document.querySelector("button"); //needs unique id
+const main = document.querySelector("main");
+
+button.addEventListener('click', responseFoo) //needs unique id
+
+fuction responseFoo() {
+  const pTag = document.createElement("p");
+  pTag.textContent = "Foo";
+  main.appendChild(pTag);
+}
