@@ -1,10 +1,25 @@
-const button = document.querySelector("button"); //needs unique id
+const Foo = document.querySelector("Foo");
+const Bar = document.querySelector("Bar");
+const FooBar = document.querySelector("FooBar");
 const main = document.querySelector("main");
 
-button.addEventListener('click', responseFoo) //needs unique id
-
+Foo.addEventListener('click', responseFoo)
 fuction responseFoo() {
-  const pTag = document.createElement("p");
-  pTag.textContent = "Foo";
-  main.appendChild(pTag);
+  const h3Tag = document.createElement("h3");
+  h3Tag.textContent = "Foo";
+  main.appendChild(h3Tag);
+}
+
+Bar.addEventListener('click', responseBar)
+fuction responseBar() {
+  const h3Tag = document.createElement("h3");
+  h3Tag.textContent = "Bar";
+  main.appendChild(h3Tag);
+}
+
+FooBar.addEventListener('click', responseFooBar)
+fuction responseFooBar() {
+  const h2Tag = document.createElement("h2");
+  h2Tag.textContent = "FooBar";
+  main.appendChild(h2Tag);
 }
